@@ -15,6 +15,7 @@ var appController = (function (uiController, financeController) {
 
     var ctrlAddItem = function () {
         // 1. Оруулах өгөгдлийг дэлгэцээс олж авна.
+        console.log('Товч дарагдлаа');
         // 2. Олж авсан өгөгдлүүдээ financeController функцд дамжуулж тэнд хадгална.
         // 3. Олж авсан өгөгдлүүдээ Вэб дээрээ тохирох хэсэгт нь гаргана.
         // 4. Төсвийг тооцоолно.
